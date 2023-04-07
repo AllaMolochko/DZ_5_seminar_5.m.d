@@ -19,17 +19,17 @@ for (int a = 0; a < numbers.Length; a+=2)
 void FillArrayRandomNumbers(int[] numbers)
 {
     for(int i = 0; i < numbers.Length; i++)
-        {
-            numbers[i] = new Random().Next(1,10);
-        }
+    {
+    numbers[i] = new Random().Next(1,10);
+    }
 }
 void PrintArray(int[] numbers)
 {
     Console.Write(" ");
     for(int i = 0; i < numbers.Length; i++)
-        {
-            Console.Write(numbers[i] + " ");
-        }
+    {
+    Console.Write(numbers[i] + " ");
+    }
     Console.Write(" ");
     Console.WriteLine();
 }   
